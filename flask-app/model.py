@@ -1,14 +1,11 @@
 import os
 
-from app import app
-from flask.ext.sqlalchemy import SQLAlchemy
-
 print os.environ.get('SQLALCHEMY_DATABASE_URI')
 
-#app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('SQLALCHEMY_DATABASE_URI', 'postgresql+psycopg2://root:example@192.168.8.111/test')
+# app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get('SQLALCHEMY_DATABASE_URI', 'postgresql+psycopg2://root:example@192.168.8.111/test')
 
 
-#olumn = db.Column
+# olumn = db.Column
 # Unicode = db.Unicode
 # UnicodeText = db.UnicodeText
 # ForeignKey = db.ForeignKey
@@ -21,7 +18,7 @@ print os.environ.get('SQLALCHEMY_DATABASE_URI')
 # synonym = db.synonym
 
 
-# class PYTest(Base):
+# class PYTable(Base):
 #     __tablename__ = 'test'
 #
 #     id = Column(Integer, primary_key=True)
